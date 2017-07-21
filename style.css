@@ -18,12 +18,58 @@ body{
   box-shadow: 0 0 16px 0 rgba(0,0,0,0.15);
 }
 
+.top-bar__logo p {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 0.8;
+  padding: 25px 18px 22px;
+  margin: 0;
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #fd4e75), color-stop(1, #fc7858) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #fd4e75), color-stop(1, #fc7858) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
 .left-bar {
   width: 69px;
-  height: 100vh;
+  min-height: 1000px;
+  height: calc(100vh - 70px);
   background: #ec7d62; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#ec7d62 , #eb5f75); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#ec7d62, #eb5f75); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#ec7d62, #eb5f75); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#ec7d62 , #eb5f75); /* Standard syntax */
-}:
+}
+
+ .left-bar__list {
+  font-size: 10px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.left-bar__list li:first-child {
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+.left-bar__list li {
+  /*margin-top: 15px;
+  margin-bottom: 15px;*/
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.left-bar__list li:hover {
+  color: rgba(255,255,255,0.75);
+}
+
+.left-bar__list i {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 8px;
+  /*text-align: center;*/
+}
