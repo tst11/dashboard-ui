@@ -56,11 +56,11 @@ body{
 }
 
 .left-bar__list li {
-  /*margin-top: 15px;
-  margin-bottom: 15px;*/
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
+  -webkit-transition: color 500ms; /* Safari */
+  transition: color 500ms;
 }
 
 .left-bar__list li:hover {
