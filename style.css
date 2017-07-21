@@ -27,6 +27,7 @@ body{
 }
 
 .left-bar {
+  position: relative;
   z-index: 5;
   width: 69px;
   min-height: 1000px;
@@ -78,7 +79,7 @@ body{
   width: 100%;
   border-bottom: 1px solid #f1f1f1;
   box-sizing: border-box;
-  z-index: -2;
+  z-index: 0;
 }
 
 .top-bar__list-left {
