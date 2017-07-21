@@ -2,15 +2,22 @@ body{
   background-color: #f0f0f0;
   font-family: 'Lato', sans-serif;
   font-size: 12px;
+  box-sizing: border-box;
 }
 
 .top-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
   background-color: #fff;
   height: 70px;
   width: 100%;
+  border-bottom: 1px solid #f1f1f1;
+  box-sizing: border-box;
+  z-index: -2;
 }
 
-.top-bar__logo {
+.left-bar__logo {
   display: inline-block;
   width: 69px;
   height: 70px;
@@ -18,7 +25,7 @@ body{
   box-shadow: 0 0 16px 0 rgba(0,0,0,0.15);
 }
 
-.top-bar__logo p {
+.left-bar__logo p {
   font-size: 30px;
   font-weight: 900;
   line-height: 0.8;
@@ -32,9 +39,10 @@ body{
 }
 
 .left-bar {
+  z-index: 5;
   width: 69px;
   min-height: 1000px;
-  height: calc(100vh - 70px);
+  height: 100vh;
   background: #ec7d62; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#ec7d62 , #eb5f75); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#ec7d62, #eb5f75); /* For Opera 11.1 to 12.0 */
