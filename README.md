@@ -1,2 +1,2 @@
 # dashboard-ui
-Dashboard design converted from PSD file to HTML and CSS3
+Material design web app dashboard converted from PSD file to HTML5 and CSS3
