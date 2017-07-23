@@ -162,6 +162,12 @@ i.selected {
   color: #c8c8c8;
 }
 
+/* Smooth outline with box-shadow: */
+.top-bar__input input[type=text]:focus {
+    outline: none;
+    box-shadow: 0 0 3pt 2pt #ec7d62;
+}
+
 .top-bar__input i {
   position: absolute;
   right: 13px;
