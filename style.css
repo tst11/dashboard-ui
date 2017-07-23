@@ -75,30 +75,44 @@ body{
   top: 0;
   left: 0;
   background-color: #fff;
-  height: 70px;
+  height: 71px;
   width: 100%;
   border-bottom: 1px solid #f1f1f1;
   box-sizing: border-box;
   z-index: 0;
 }
 
-.top-bar__list-left {
+.top-bar__list {
   display: inline-block;
-  float: left;
   list-style: none;
   margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 69px;
+  margin-bottom: 0;  
   padding-left: 0;
   height: 100%;
 }
 
-.top-bar__list-left li {
+.top-bar__list li {
   float: left;
   padding: 26px 20px 20px;
   font-size: 20px;
   color: #ec7d62;
-  border-right: 1px solid #f1f1f1;
+}
+
+.list-left {
+  float: left;
+  margin-left: 69px;
+}
+
+.list-left li {
+border-right: 1px solid #f1f1f1;
+}
+
+.list-right {
+  float: right;
+}
+
+.list-right li {
+  border-left: 1px solid #f1f1f1;
 }
 
 i.selected {
@@ -153,6 +167,54 @@ i.selected {
   top: 10px;
   font-size: 16px;
   color: #c8c8c8;
+}
+
+.top-bar__user-box {
+  float: right;
+}
+
+.top-bar__user-box img {
+  float: left;
+}
+
+.user-box__credits {
+  float: left;
+  margin-top: 18px;
+  margin-left: 18px;
+}
+
+.user-box__credits p {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.user-box__credits p:first-child {
+  margin-bottom: 9px;
+}
+
+.user-box__credits p:nth-child(2) {
+  font-size: 10px;
+  color: #bfbfbf;
+}
+
+.margin-to-usr {
+  margin-bottom: 9px;
+}
+
+.usr-bright {
+  color: #ec7d62;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.top-bar__user-box i {
+  float: left;
+  font-size: 20px;
+  color: #bfbfbf;
+  margin-top: 26px;
+  margin-left: 50px;
+  margin-right: 18px;
 }
 
 /*******
