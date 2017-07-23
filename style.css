@@ -325,6 +325,75 @@ i.selected {
   color: #fd5670;
 }
 
+.right-bar {
+  float: right;
+  width: 268px;
+  height: 832px;
+  background-color: #fff;
+}
+
+.right-bar__header {
+  position: relative;
+  height: 47px;
+  background: #ec7d62; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(to left, #ec7d62 , #eb5f75); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to left, #ec7d62, #eb5f75); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to left, #ec7d62, #eb5f75); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to left, #ec7d62 , #eb5f75); /* Standard syntax */
+}
+
+.right-bar__header-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.right-bar__header-list li {
+  display: inline-block;
+  float: left;
+  color: #fff;
+  font-size: 20px;
+  padding: 12px 33px;
+}
+
+.right-bar__header-list li:first-child {
+  background-color: #b6495d;
+}
+
+.select-sq {
+  position: absolute;
+  left: 39px;
+  bottom: -3px;
+  display: inline-block;
+  height: 11px;
+  width: 11px;
+  background-color: #b6495d;
+  transform: rotate(45deg);
+}
+
+.right-bar__body-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.right-bar__body-list img {
+  float: left;
+}
+
+.user-box__name {
+  font-weight: 700;
+  font-weight: 13px;
+  color: #777777;
+}
+
+.right-bar__body-list i {
+  font-size: 20px;
+  color: #bfbfbf;
+}
+
 /*******
 ClearFix
 ********/
