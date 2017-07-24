@@ -379,8 +379,33 @@ i.selected {
   list-style: none;
 }
 
+.right-bar__body-list li:first-child {
+  padding-top: 25px;
+}
+
+.right-bar__body-list li {
+  margin-left: 18px;
+  margin-right: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.right-bar__body-list li:last-child {
+  border-bottom: none;
+}
+
 .right-bar__body-list img {
   float: left;
+}
+
+.user-box_c_p {
+  margin-top: 5px !important;
+  margin-left: 17px !important;
+}
+
+.user-box_c_p p:first-child {
+  margin-bottom: 8px !important;
 }
 
 .user-box__name {
@@ -390,8 +415,10 @@ i.selected {
 }
 
 .right-bar__body-list i {
+  float: right;
   font-size: 20px;
   color: #bfbfbf;
+  margin-top: 10px;
 }
 
 /*******
