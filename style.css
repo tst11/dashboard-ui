@@ -521,17 +521,76 @@ i.selected {
 }
 
 .i-box__item_custom {
-  
+  width: 54px;
+  height: 54px;
+  border-radius: 17px;
+  background: #ad6a77; /* For browsers that do not support gradients */
+  background: linear-gradient(-30deg, #ad6a77 0%, #f6b797 100%);
+  background: -webkit-linear-gradient(-30deg, #ad6a77 0%, #f6b797 100%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-30deg, #ad6a77 0%, #f6b797 100%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-30deg, #ad6a77 0%, #f6b797 100%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-30deg, #ad6a77 0%, #f6b797 100%); /* Standard syntax */
+}
+
+.box__item_c_1 {
+  background: #6359b0; /* For browsers that do not support gradients */
+  background: linear-gradient(-30deg, #6359b0 0%, #b26ae1 100%);
+  background: -webkit-linear-gradient(-30deg, #6359b0 0%, #b26ae1 100%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-30deg, #6359b0 0%, #b26ae1 100%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-30deg, #6359b0 0%, #b26ae1 100%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-30deg, #6359b0 0%, #b26ae1 100%); /* Standard syntax */
+}
+
+.box__item_c_2 {
+  background: #4bb9c3; /* For browsers that do not support gradients */
+  background: linear-gradient(-30deg, #4bb9c3 0%, #52e7c5 100%);
+  background: -webkit-linear-gradient(-30deg, #4bb9c3 0%, #52e7c5 100%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-30deg, #4bb9c3 0%, #52e7c5 100%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-30deg, #4bb9c3 0%, #52e7c5 100%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-30deg, #4bb9c3 0%, #52e7c5 100%); /* Standard syntax */
+}
+
+.box__item_c_3 {
+  background: #ad6a77; /* For browsers that do not support gradients */
+  background: linear-gradient(-30deg, #ad6a77 0%, #f6b797 100%);
+  background: -webkit-linear-gradient(-30deg, #ad6a77 0%, #f6b797 100%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-30deg, #ad6a77 0%, #f6b797 100%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-30deg, #ad6a77 0%, #f6b797 100%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-30deg, #ad6a77 0%, #f6b797 100%); /* Standard syntax */
+}
+
+.box__item_c_4 {
+  background: #8841af; /* For browsers that do not support gradients */
+  background: linear-gradient(-30deg, #8841af 0%, #708ae6 100%);
+  background: -webkit-linear-gradient(-30deg, #8841af 0%, #708ae6 100%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-30deg, #8841af 0%, #708ae6 100%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-30deg, #8841af 0%, #708ae6 100%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-30deg, #8841af 0%, #708ae6 100%); /* Standard syntax */
+}
+
+.box__item_c_5 {
+  background: #5885e8; /* For browsers that do not support gradients */
+  background: linear-gradient(-30deg, #5885e8 0%, #29cddd 100%);
+  background: -webkit-linear-gradient(-30deg, #5885e8 0%, #29cddd 100%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-30deg, #5885e8 0%, #29cddd 100%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-30deg, #5885e8 0%, #29cddd 100%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-30deg, #5885e8 0%, #29cddd 100%); /* Standard syntax */
+}
+
+.box__item_c_6 {
+  background: #f48982; /* For browsers that do not support gradients */
+  background: linear-gradient(-30deg, #f48982 0%, #fbda89 100%);
+  background: -webkit-linear-gradient(-30deg, #f48982 0%, #fbda89 100%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-30deg, #f48982 0%, #fbda89 100%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-30deg, #f48982 0%, #fbda89 100%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-30deg, #f48982 0%, #fbda89 100%); /* Standard syntax */
 }
 
 .box-item__logo {
-  position: absolute;
-  top: 14px;
-  left: 12px;
-}
-
-.footer-i-box__item:nth-child(3) .box-item__logo {
-  left: 20px !important;
+  position: relative;
+  margin-top: 15px;
+  /*top: 14px;
+  left: 12px;*/
 }
 
 /*******
