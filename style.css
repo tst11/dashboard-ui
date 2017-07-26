@@ -328,7 +328,7 @@ i.selected {
 .right-bar {
   float: right;
   width: 268px;
-  height: 832px;
+  height: 833px;
   background-color: #fff;
 }
 
@@ -589,8 +589,97 @@ i.selected {
 .box-item__logo {
   position: relative;
   margin-top: 15px;
-  /*top: 14px;
-  left: 12px;*/
+}
+
+.main-area {
+  float: left;
+  width: calc(100% - 268px - 69px);
+  height: 833px;
+  padding: 20px 23px 22px 20px;
+  box-sizing: border-box;
+}
+
+.main__row {
+  display: flex;
+}
+
+.main__elem {
+  display: inline-block;
+  /*float: left;*/
+  background-color: #fff;
+  box-shadow: 2px 3px 15px 0 rgba(0,0,0,0.13);
+  margin-right: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.main__elem h2 {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #767676;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.elem-year-box {
+  float: right;
+}
+
+.elem-year-box ul {
+  color: #bfbfbf;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.elem-year-box li {
+  float: left;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-right: 14px;
+  position: relative;
+}
+
+.elem-year-box li:last-child {
+  margin-right: 0;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.selected-li {
+  padding: 6px 16px;
+  border-radius: 15px;
+  /*background: ;*/
+  background: linear-gradient(to right, #fd4e75 0%, #fc7858 100%);
+}
+
+.elem-year-box i {
+  position: relative;
+  top: -3px;
+}
+
+.center-align {
+  display: block !important;
+  text-align: center;
+}
+
+.elem-small {
+  flex-grow: 100;
+  min-width: 306px;
+  height: 265px;
+  overflow: hidden;
+  margin-right: 0;
+}
+
+.elem-wide {
+  float: left;
+  width: 703px;
+  height: 265px;
+  background-color: #fff;
 }
 
 /*******
