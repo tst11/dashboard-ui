@@ -1,6 +1,6 @@
 # dashboard-ui
 
-### [Link to Live Wev](https://tst11.github.io/dashboard-ui/)
+### [Link to Live Web](https://tst11.github.io/dashboard-ui/)
 
 Material design web app dashboard converted from PSD file to HTML5 and CSS3
 
