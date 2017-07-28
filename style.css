@@ -117,11 +117,6 @@ border-right: 1px solid #f1f1f1;
   border-left: 1px solid #f1f1f1;
 }
 
-/*notification dot style*/
-/*.list-right i:nth-child(3)::before { 
-    content: "Read this: ";
-}*/
-
 i.selected {
   line-height: 0.2;
   padding: 6px 6px 5px;
@@ -835,7 +830,6 @@ ul.elem__task-list input[type=radio]:checked ~ .check::before{
   font-family: FontAwesome;
   content: '\f058';
   color: #fd566f;
-  /*background-image: linear-gradient(to right, #fd4e75 0%, #fc7858 100%);*/
 }
 
 /******
@@ -855,9 +849,6 @@ ul.elem__task-list input[type=radio]:checked ~ .check::before{
 
 .task-time i {
   float: left;
-  /*position: absolute;
-  top: 14px;
-  right: 50px;*/
   margin-right: 9px;
 }
 
