@@ -1,6 +1,8 @@
 # dashboard-ui
 
-### [Link to Live Web](https://tst11.github.io/dashboard-ui/) (Best viewed from 1366px wide screen)
+### [Link to Live Web](https://tst11.github.io/dashboard-ui/) 
+
+(Best viewed from 1366px wide screen)
 
 Material design web app dashboard converted from PSD file to HTML5 and CSS3
 
