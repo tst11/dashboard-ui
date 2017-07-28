@@ -2,7 +2,7 @@ body{
   background-color: #f0f0f0;
   font-family: 'Lato', sans-serif;
   font-size: 12px;
-  /*box-sizing: border-box;*/
+  box-sizing: border-box;
 }
 
 .left-bar__logo {
@@ -601,6 +601,7 @@ i.selected {
 
 .main__row {
   display: flex;
+  margin-bottom: 20px;
 }
 
 .main__elem {
@@ -620,6 +621,7 @@ i.selected {
   color: #767676;
   margin-top: 0;
   margin-bottom: 0;
+  line-height: 0.8;
 }
 
 .elem-year-box {
@@ -667,7 +669,14 @@ i.selected {
   text-align: center;
 }
 
-.elem-small {
+.elem-1 {
+  float: left;
+  width: 703px;
+  height: 265px;
+  background-color: #fff;
+}
+
+.elem-2 {
   flex-grow: 100;
   min-width: 306px;
   height: 265px;
@@ -675,11 +684,185 @@ i.selected {
   margin-right: 0;
 }
 
-.elem-wide {
+.elem-3 {
   float: left;
-  width: 703px;
-  height: 265px;
+  min-width: 466px;
+  height: 507px;
   background-color: #fff;
+}
+
+.elem-4 {
+  flex-grow: 100;
+  min-width: 500px;
+  height: 244px;
+  margin-right: 0;
+}
+
+.elem-feed {
+  margin-top: 40px;
+}
+
+.elem-feed__user {
+  float: left;
+  display: inline-block;
+}
+
+.elem-feed__user img {
+  display: block;
+}
+
+.elem-feed__user span {
+  display: block;
+  font-size: 8px;
+  color: #979796;
+  margin-top: 10px;
+}
+
+.elem-feed__list {
+  display: inline-block;
+  width: 344px;
+  list-style: none;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.elem-feed__list li {
+  padding: 20px 20px 18px;
+  font-size: 12px;
+  color: #bfbfbf;
+  background-color: rgba(246, 246, 246, 0.38);
+  margin-bottom: 20px;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+}
+
+.elem-feed__list span {
+  font-weight: 900;
+  color: #777777;
+}
+
+li.feed__inner-list{
+  background-color: #fff;
+  border: none;
+  padding: 0;
+}
+
+.feed__inner-list ul {
+  list-style: none;
+  margin-left: 12px;
+  padding-left: 13px;
+  border-left: 3px solid #f1f1f1;
+}
+
+.feed__inner-list li {
+  margin-bottom: 20px;
+}
+
+.elem__task-list {
+  list-style: none;
+}
+
+/******
+  Radio button styles
+******/
+
+ul.elem__task-list {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+ul.elem__task-list li{
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  width: 100%;
+	border-bottom: 1px solid #ededed;
+}
+
+ul.elem__task-list li:first-child {
+  border-top: 1px solid #ededed;
+}
+
+ul.elem__task-list li input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+}
+
+ul.elem__task-list li label{
+  display: block;
+  position: relative;
+  color: #bfbfbf;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 0.8;
+  padding: 15px 0px 13px 35px;
+  margin-bottom: 0;
+  z-index: 9;
+  cursor: pointer;
+}
+
+ul.elem__task-list li .check{
+  display: block;
+  position: absolute;
+  border: 2px solid #e1e1e1;
+  border-radius: 100%;
+  height: 16px;
+  width: 16px;
+  top: 10px;
+  left: 6px;
+	z-index: 5;
+}
+
+ul.elem__task-list li .check::before {
+  display: block;
+  position: absolute;
+	content: ' ';
+  border-radius: 100%;
+  font-size: 22px;
+  top: -4px;
+	left: -1px;
+  margin: auto;
+}
+
+ul.elem__task-list input[type=radio]:checked ~ .check {
+  border: 2px solid #fd4e75;
+}
+
+ul.elem__task-list input[type=radio]:checked ~ .check::before{
+  font-family: FontAwesome;
+  content: '\f058';
+  color: #fd566f;
+  /*background-image: linear-gradient(to right, #fd4e75 0%, #fc7858 100%);*/
+}
+
+/******
+  End of Radio button styles
+******/
+
+.task-action {
+  color: #fd566f;
+  font-weight: 900;
+  margin-right: 32px
+}
+
+.task-time {
+  float: right;
+  width: 75px;
+}
+
+.task-time i {
+  float: left;
+  /*position: absolute;
+  top: 14px;
+  right: 50px;*/
+  margin-right: 9px;
+}
+
+.task-time time {
+  float: left;
 }
 
 /*******
