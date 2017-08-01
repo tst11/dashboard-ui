@@ -699,10 +699,28 @@ i.selected {
 }
 
 .elem-4 {
-  flex-grow: 100;
-  min-width: 500px;
+  display: block;
+  /*flex-grow: 100;
+  min-width: 500px;*/
   height: 244px;
   margin-right: 0;
+}
+
+.elem-bottom {
+  flex: 1 ;
+  min-width: 240px;
+  height: 243px;
+  margin-top: 20px;
+}
+
+.elem-bottom:nth-child(2) {
+  margin-right: 0 !important;
+}
+
+.elem-wrap-bottom {
+  display: flex;
+  flex-grow: 100;
+  min-width: 500px;
 }
 
 .elem-feed {
@@ -793,7 +811,7 @@ ul.elem__task-list li:first-child {
   border-top: 1px solid #ededed;
 }
 
-ul.elem__task-list li input[type=radio]{
+ul.elem__task-list li input[type=checkbox]{
   position: absolute;
   visibility: hidden;
 }
@@ -834,11 +852,11 @@ ul.elem__task-list li .check::before {
   margin: auto;
 }
 
-ul.elem__task-list input[type=radio]:checked ~ .check {
+ul.elem__task-list input[type=checkbox]:checked ~ .check {
   border: 2px solid #fd4e75;
 }
 
-ul.elem__task-list input[type=radio]:checked ~ .check::before{
+ul.elem__task-list input[type=checkbox]:checked ~ .check::before{
   font-family: FontAwesome;
   content: '\f058';
   color: #fd566f;
