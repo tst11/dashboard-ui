@@ -92,7 +92,6 @@ body{
   height: 70px;
   width: 100%;
   border-bottom: 1px solid #f1f1f1;
-  /*box-sizing: border-box;*/
   z-index: 0;
 }
 
@@ -175,7 +174,7 @@ i.selected {
   color: #c8c8c8;
 }
 
-/* Smooth outline with box-shadow: */
+/* Smooth outline with color border: */
 .top-bar__input input[type=text]:focus {
     outline: none;
     border: 1px solid #ec7d62;
@@ -613,7 +612,6 @@ i.selected {
 
 .main__elem {
   display: inline-block;
-  /*float: left;*/
   background-color: #fff;
   box-shadow: 2px 3px 15px 0 rgba(0,0,0,0.13);
   margin-right: 20px;
@@ -662,7 +660,6 @@ i.selected {
 .selected-li {
   padding: 6px 16px;
   border-radius: 15px;
-  /*background: ;*/
   background: linear-gradient(to right, #fd4e75 0%, #fc7858 100%);
 }
 
@@ -700,8 +697,6 @@ i.selected {
 
 .elem-4 {
   display: block;
-  /*flex-grow: 100;
-  min-width: 500px;*/
   height: 244px;
   margin-right: 0;
 }
@@ -790,7 +785,7 @@ li.feed__inner-list{
 }
 
 /******
-  Radio button styles
+  Checkbox button styles
 ******/
 
 ul.elem__task-list {
@@ -863,7 +858,7 @@ ul.elem__task-list input[type=checkbox]:checked ~ .check::before{
 }
 
 /******
-  End of Radio button styles
+  End of Checkbox button styles
 ******/
 
 .task-action {
